@@ -1959,10 +1959,15 @@
   resolved "https://registry.yarnpkg.com/@medusajs/fulfillment/-/fulfillment-2.10.3.tgz#e8f8bc0655b12b82ae47830bd0c6899b28cd7d46"
   integrity sha512-V6N4a1Rjbdb4si214lBzXKsMerYI6o7CssHpazpvVyDd6ktMuN4CeDKISHPU+ru4f92+wPonQybo8pi51o48/A==
 
-"@medusajs/icons@2.10.3", "@medusajs/icons@^2.9.0":
+"@medusajs/icons@2.10.3":
   version "2.10.3"
   resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.10.3.tgz#e53874fb6c8a502f0ddc8f5f996163ca214bad78"
   integrity sha512-w1NQzNY/cTsfjuEQ8AOpEI49mxA6Oa6tJlg4HMfpOjDl3/R2qZtQXa8DIchSr3Sx+/RTsIGYUxv4Vbd+VTszJg==
+
+"@medusajs/icons@^2.13.1":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.13.3.tgz#844184aa6e7f4dcc2a92342bc08f2d56a56e1e0e"
+  integrity sha512-yL4J5hAl8URgYT/rCj1ndTbw1HMTwu1B1CwUtmcXweQqplOnYP6nUr2LrYTH9BkTNeFdLp0uCT8hE+2jtulZnw==
 
 "@medusajs/index@2.10.3":
   version "2.10.3"
@@ -1974,12 +1979,20 @@
   resolved "https://registry.yarnpkg.com/@medusajs/inventory/-/inventory-2.10.3.tgz#a70a0ddddb2f8544776e7ada50412fe811ea2a51"
   integrity sha512-Zcs74+VcS4z0V8xc5zh3Ym/agL+0pkZvd9VBiYvhJS4bdpsQel3tBdEr6myNoqAKvmujs48dQepk0Wv0O+qtdA==
 
-"@medusajs/js-sdk@2.10.3", "@medusajs/js-sdk@^2.9.0":
+"@medusajs/js-sdk@2.10.3":
   version "2.10.3"
   resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-2.10.3.tgz#7d127919184148b8fafab7ba4cac3508b0e71023"
   integrity sha512-S2B6ViUFrZeCQnshJCjuhzLJmcb3eIVvdl/W4u/TcQGSF+cMXQGEsB9T7QUC6pyloY2+g5tTYxO+ND8s0enTCg==
   dependencies:
     "@medusajs/types" "2.10.3"
+    fetch-event-stream "^0.1.5"
+    qs "^6.12.1"
+
+"@medusajs/js-sdk@^2.13.1":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-2.13.3.tgz#677494332a9e1bb2e3403628327f65ca6c6c45dd"
+  integrity sha512-JTXZE8q6kHJvZoat2edGUf7QSDVdOTHSaKQnekFD2cIzO6NRUSK+tRiIk+XQLf7FE9eWUHB/h5v9oQ6i47zhXg==
+  dependencies:
     fetch-event-stream "^0.1.5"
     qs "^6.12.1"
 
@@ -2201,10 +2214,17 @@
     get-port "^5.1.0"
     randomatic "^3.1.1"
 
-"@medusajs/types@2.10.3", "@medusajs/types@^2.9.0":
+"@medusajs/types@2.10.3":
   version "2.10.3"
   resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.10.3.tgz#27eb675a04bdd99dc65c65916af3178d772e85df"
   integrity sha512-Rx1H4LZ17AsOspaFAPpMwpi2rxj14ZWSip+1FA28GZourviWCLR2i3Er0b6SqJdh861fH6RhSyNaYVEKX6rk/w==
+  dependencies:
+    bignumber.js "^9.1.2"
+
+"@medusajs/types@^2.13.1":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.13.3.tgz#12dcb99e9ef49b748240598e0fed4d518bf3b157"
+  integrity sha512-MWd4NvpROJ+CvsvTuPxF9RsGKom/KMftYeh19UhB+w+K8OGWTNwfHLLzOvW3sAHhAjTzt+IDxLrxbqGcAcgw/w==
   dependencies:
     bignumber.js "^9.1.2"
 
@@ -5193,14 +5213,14 @@
   resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.13.0.tgz#8db0ccc9d6c32b6393551a6d19c87dbb259a8828"
   integrity sha512-NBKJP3OIdmZY3COJdWkSonr50FMVIi+aj5ZJ7hI/DTpEKg2RMfo/KvP8A3B/zOSpMgIe52B5E2yn7rryULzA6g==
 
-"@techlabi/medusa-marketplace-plugin@0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@techlabi/medusa-marketplace-plugin/-/medusa-marketplace-plugin-0.35.0.tgz#596e57d5e5f71bb97233982e15a2f957650aa44e"
-  integrity sha512-fgmDPsaQ8l2983sxDvKwpy2bL9+MfuxzsBZWBrVbvcv//3CeJcc2F5wYvhSC5g3jC21rQJTbMnYzVM4By+3Uug==
+"@techlabi/medusa-marketplace-plugin@^0.58.0":
+  version "0.58.0"
+  resolved "https://registry.yarnpkg.com/@techlabi/medusa-marketplace-plugin/-/medusa-marketplace-plugin-0.58.0.tgz#795f8cac58a0a18a9ddba03c6b28a37a935e9d43"
+  integrity sha512-4LcxL37sVXCevMLEMBfRmlmi4iSmIURVyrYLA5EhK9kiyKcnAAykeeS78TiMyo8B5mcwovHiZpLSBIuEvQIFcw==
   dependencies:
-    "@medusajs/icons" "^2.9.0"
-    "@medusajs/js-sdk" "^2.9.0"
-    "@medusajs/types" "^2.9.0"
+    "@medusajs/icons" "^2.13.1"
+    "@medusajs/js-sdk" "^2.13.1"
+    "@medusajs/types" "^2.13.1"
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "4.39.0"
 

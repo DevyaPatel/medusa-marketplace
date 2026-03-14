@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@techlabi/medusa-marketplace-plugin": "^0.58.0"
+  }
+}
