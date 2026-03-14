@@ -1,0 +1,1 @@
+{"errors":["Cannot assign sales channel to cart. The Publishable API Key in the header has multiple associated sales channels. Please provide a sales channel ID in the request body."],"message":"Provided request body contains errors. Please check the data and retry the request"}
