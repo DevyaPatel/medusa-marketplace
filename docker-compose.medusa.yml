@@ -4,17 +4,17 @@ services:
 
   medusa:
     build:
-      context: ./medusa-marketplace-demo
+      context: ./medusa-clothing
       dockerfile: Dockerfile
-    container_name: ${PROJECT_NAME:-marketplace}-medusa
+    container_name: ${PROJECT_NAME:-medusa-clothing-app}-medusa
     depends_on:
       - postgres
     restart: always
     ports:
       - 9000:9000
     volumes:
-      - ./medusa-marketplace-demo/.env.docker:/application/.env
-    command: sh -c "npx medusa db:setup --db marketplace && yarn dev"
+      - ./medusa-clothing/.env.docker:/application/.env
+    command: sh -c "npx medusa db:setup --db medusa-clothing-app && yarn dev"
     networks:
       - internal
 
